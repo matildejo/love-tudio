@@ -1,0 +1,39 @@
+﻿{
+  "info": {
+    "name": "AdultWork.com | API/GetPermissions",
+    "_postman_id": "f3380fac-4c41-457b-8dbd-65f7b3f262a2",
+    "description": "",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GetPermissions",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "bearer {access_token}",
+            "description": "This request makes use of an access token. An actual access token is not included in the request. Instead, you will have to supply your access token manually."
+          }
+        ],
+        "body": {},
+        "url": {
+          "protocol": "http",
+          "host": [
+            "api-sandbox",
+            "adultwork",
+            "com"
+          ],
+          "path": [
+            "v1",
+            "Account",
+            "GetPermissions"
+          ],
+          "query": [],
+          "raw": "http://api-sandbox.adultwork.com/v1/Account/GetPermissions"
+        }
+      }
+    }
+  ]
+}
